@@ -723,10 +723,10 @@ MonoBehaviour:
     ScreenPosition: {x: 0, y: 0}
     DeadZone:
       Enabled: 1
-      Size: {x: 0.2, y: 0.2}
+      Size: {x: 0.1, y: 0.2}
     HardLimits:
       Enabled: 1
-      Size: {x: 0.4, y: 0.4}
+      Size: {x: 0.2, y: 0.3}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
@@ -793,6 +793,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b266a80a8dce774fb19bdbbba46811d, type: 3}
+--- !u!1001 &2744606414407136257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0277863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513821176065740224, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182553646559696762, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
+      propertyPath: m_Name
+      value: Dropship_01_Tank_Red
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9bbf9f1a8f4a0cf4bb0fed1266ae4473, type: 3}
 --- !u!1001 &4846091373809333304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -862,3 +919,4 @@ SceneRoots:
   - {fileID: 473567900}
   - {fileID: 4846091373809333304}
   - {fileID: 619215740}
+  - {fileID: 2744606414407136257}
