@@ -155,7 +155,7 @@ MonoBehaviour:
       m_Action: Rotation
       m_Flags: 8
     m_Flags: 0
-  thrustStrength: 1000
+  thrustStrength: 1500
   rotationStrength: 100
   thrustClip: {fileID: 8300000, guid: c7a6114f1ee6f604ba430671e83b2b82, type: 3}
 --- !u!114 &3362550437247405929
