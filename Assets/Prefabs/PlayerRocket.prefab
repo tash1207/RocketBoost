@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7340678325152161619}
   - component: {fileID: 6880562537863688437}
+  - component: {fileID: 3362550437247405929}
   - component: {fileID: 8924392239684138842}
   - component: {fileID: 6395065196647839763}
   - component: {fileID: 7562555316618344594}
@@ -156,6 +157,18 @@ MonoBehaviour:
     m_Flags: 0
   thrustStrength: 1000
   rotationStrength: 100
+--- !u!114 &3362550437247405929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8213546567501135560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1933068e35f5e504abdbfafd4ee5ad7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &8924392239684138842
 Rigidbody:
   m_ObjectHideFlags: 0
