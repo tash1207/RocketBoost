@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860319671855877073}
   - component: {fileID: 5757852684679237043}
-  - component: {fileID: 3357300088819055522}
+  - component: {fileID: 5824746862511090631}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -98,7 +98,7 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
---- !u!114 &3357300088819055522
+--- !u!114 &5824746862511090631
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,6 +253,7 @@ GameObject:
   - component: {fileID: 7340678325152161619}
   - component: {fileID: 6880562537863688437}
   - component: {fileID: 3362550437247405929}
+  - component: {fileID: 1142741343843329602}
   - component: {fileID: 8924392239684138842}
   - component: {fileID: 6395065196647839763}
   - component: {fileID: 7562555316618344594}
@@ -427,6 +428,18 @@ MonoBehaviour:
   successClip: {fileID: 8300000, guid: 9b60eed90be5c97498be9228f907d164, type: 3}
   crashParticles: {fileID: 1835165076540299972}
   successParticles: {fileID: 105019822145328579}
+--- !u!114 &1142741343843329602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8213546567501135560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81faf4e3a84478e48a03f6248acb8cc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &8924392239684138842
 Rigidbody:
   m_ObjectHideFlags: 0
